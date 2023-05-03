@@ -57,7 +57,7 @@ built small to big projects and coded intreview questions from masters.'
           />
           <Details
             type='Online Courses'
-            time='June 2022-May 2023 '
+            time='June 2022-March 2023 '
             place='Udemy'
             info='UI&UX Course, and Design Rules Course.
 Next I took HTML & CSS Course, following by a full JavaScript Fundementals Course.
@@ -65,6 +65,25 @@ After that I took 2 Courses in React.js and 2 Fullstack Courses, then a course I
 to Finish I took 2 Courses for Projects - one was for 20 Projects in Vanilla-JavaScript,
 and One was 50 Projects - One a day which made my github explode with new real-life scenario projects.
 '
+          />
+          <Details
+            type='Online Courses'
+            time='March 2023-June 2023 '
+            place='The Odin Project'
+            info='Meanwhile Looking for projects to fill my portfolio and adding more knowledge; I began 
+            searching for another way to implement self-learning. but not only by watching courses.
+            The Odin Project gave me the ability to build more by myself and learn by reading the best resources
+            for fullstack developer, Computer science and more, and helped me with building the foundation I needed to understand what goes behind the scenes of web.
+'
+          />
+          <Details
+            type='Online Courses'
+            time='March 2023-June 2023 '
+            place='CS50 - Introduction to Computer Science (Harvard University Online Course)'
+            info='While Doing The Odin Project I took this course which compliment each other.
+            it helped me understand more the concepts of web, computer science, C Language, 
+            Python, SQL Databases,
+             Algorithms & Data Structures and more!'
           />
         </ul>
       </div>
