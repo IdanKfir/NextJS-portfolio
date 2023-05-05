@@ -180,9 +180,7 @@ const projects = () => {
               <Project
                 title='HouseRetail'
                 img={houseretail}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
+                summary='House Selling / Renting with autenthication and responsive to mobile, made with React.js.'
                 link='https://ik-houseretail.netlify.app/'
                 github='https://github.com/IdanKfir/ik-houseretail'
                 type='Project'
@@ -202,9 +200,7 @@ local currency.'
               <Project
                 title='Hangman Game'
                 img={hangman}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
+                summary='Do you know Hangman game? so this is it, made with VanillaJs.'
                 link='https://github.com/IdanKfir/Hangman'
                 github='https://github.com/IdanKfir/Hangman'
                 type='Project'
@@ -214,9 +210,7 @@ local currency.'
               <Project
                 title='Cocktail Finder'
                 img={cocktails}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
+                summary='A Cocktail finder app using CocktailDb API, build with React.js.'
                 link='https://thecocktailsik.netlify.app/'
                 github='https://github.com/IdanKfir/Cocktails'
                 type='Project'
@@ -236,9 +230,8 @@ local currency.'
               <Project
                 title='3D Shirt Model'
                 img={dshirt}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
+                summary='About
+                A project that has a 3D-Shirt-Model which is responsive, has Color changes, texture and you can upload logo to the model. Stack: React.js, Three.js.'
                 link='https://ik-shirt.vercel.app/'
                 github='https://github.com/IdanKfir/3D-Shirt'
                 type='Project'
@@ -248,9 +241,7 @@ local currency.'
               <Project
                 title='3D Portfolio'
                 img={dfolio}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
+                summary='3D Portfolio website using models from the web, made while learning. Stack: this website made with React.js, Three.js related tech, TailwindCss.'
                 link='/ik3d.vercel.app'
                 github='https://github.com/IdanKfir/3D-Portfolio'
                 type='Project'
@@ -260,9 +251,7 @@ local currency.'
               <FeaturedProject
                 title='IkNews'
                 img={iknews}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-                local currency.'
+                summary='A small News-Grid website. Made with HTML & CSS.'
                 link='https://idanknews.netlify.app/'
                 github='https://github.com/IdanKfir/NewsGrid'
                 type='Featured Project'
