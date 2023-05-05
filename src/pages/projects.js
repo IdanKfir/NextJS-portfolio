@@ -16,6 +16,7 @@ import dshirt from '../../public/images/projects/dshirt.png';
 import devc from '../../public/images/projects/devc.png';
 import cocktails from '../../public/images/projects/cocktails.png';
 import dfolio from '../../public/images/projects/3dfolio.png';
+import fightingGame from '../../public/images/fightingGame.png';
 
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -166,13 +167,12 @@ const projects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='IkNews'
-                img={iknews}
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
-                link='https://idanknews.netlify.app/'
-                github='https://github.com/IdanKfir/NewsGrid'
+                title='Brutal-Fighters'
+                img={fightingGame}
+                summary='A 2D Fighting game, built with Javascript, Html Canvas & CSS. lot of gaming logic, animations, models, sprites.
+                used with free assets [Oak Woods Environmnent asset - h.io]'
+                link='https://ikbrutal.vercel.app/'
+                github='https://github.com/IdanKfir/2d-fighting-game'
                 type='Project'
               />
             </div>
@@ -256,6 +256,16 @@ local currency.'
                 type='Project'
               />
             </div>
+            <div className='col-span-12'>
+              <FeaturedProject
+                title='ProShop'
+                img={proshop}
+                summary='Web-based platform that allows users to search, buy, and manage account via website with various products, admin managment and a convenient and efficient solution for digital needs and shopping.'
+                link='https://ikproshop.herokuapp.com/'
+                github='https://github.com/IdanKfir/Proshop'
+                type='Featured Project'
+              />
+            </div>
           </div>
         </Layout>
       </main>
@@ -264,3 +274,16 @@ local currency.'
 };
 
 export default projects;
+
+//             <div className='col-span-6 sm:col-span-12'>
+// <Project
+// title='IkNews'
+// img={iknews}
+// summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
+// It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
+// local currency.'
+// link='https://idanknews.netlify.app/'
+// github='https://github.com/IdanKfir/NewsGrid'
+// type='Project'
+// />
+// </div>

@@ -51,9 +51,11 @@ const Education = () => {
             time='Mar 2022-June 2022 '
             place='Israel'
             info='The start of My journey was when I joined "Coding Academy".
-That was basically where I learned the fundementals of web; the start of the road practically.
+Thats where I learned the fundementals of web and fullstack; the start of the road practically.
 I had real fun and learned the basics of web development, and the industry overall.
-built small to big projects and coded intreview questions from masters.'
+built small to big projects and coded intreview questions from masters.
+Used mostly #HTML #CSS #Javascript #React #Node.js #Typescript #Github #Git
+'
           />
           <Details
             type='Online Courses'
