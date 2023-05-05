@@ -16,7 +16,7 @@ import dshirt from '../../public/images/projects/dshirt.png';
 import devc from '../../public/images/projects/devc.png';
 import cocktails from '../../public/images/projects/cocktails.png';
 import dfolio from '../../public/images/projects/3dfolio.png';
-import fightingGame from '../../public/images/fightingGame.png';
+import fightingGame from '../../public/images/projects/fightingGame.png';
 
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -275,6 +275,16 @@ local currency.'
                 summary='2 Players Dice game, made With Javascript, Html & CSS only'
                 link='https://ikdice-game.vercel.app/'
                 github='https://github.com/IdanKfir/dice-game'
+                type='Project'
+              />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+                title='Github-Finder'
+                img={githubfinder}
+                summary='An app to search for github users + repos etc. wrote with React.js, based on github API.'
+                link='https://ikgithub-finder.vercel.app/'
+                github='https://github.com/IdanKfir/github-finder'
                 type='Project'
               />
             </div>
