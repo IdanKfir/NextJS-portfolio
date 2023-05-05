@@ -251,7 +251,7 @@ const projects = () => {
               <FeaturedProject
                 title='IkNews'
                 img={iknews}
-                summary='A small News-Grid website. Made with HTML & CSS.'
+                summary='News-Grid website Made with HTML & CSS only'
                 link='https://idanknews.netlify.app/'
                 github='https://github.com/IdanKfir/NewsGrid'
                 type='Featured Project'
