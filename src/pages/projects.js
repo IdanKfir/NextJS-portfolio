@@ -258,12 +258,24 @@ local currency.'
             </div>
             <div className='col-span-12'>
               <FeaturedProject
-                title='ProShop'
-                img={proshop}
-                summary='Web-based platform that allows users to search, buy, and manage account via website with various products, admin managment and a convenient and efficient solution for digital needs and shopping.'
-                link='https://ikproshop.herokuapp.com/'
-                github='https://github.com/IdanKfir/Proshop'
+                title='IkNews'
+                img={iknews}
+                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
+                local currency.'
+                link='https://idanknews.netlify.app/'
+                github='https://github.com/IdanKfir/NewsGrid'
                 type='Featured Project'
+              />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+                title='Dice-Game'
+                img={dice}
+                summary='2 Players Dice game, made With Javascript, Html & CSS only'
+                link='https://ikdice-game.vercel.app/'
+                github='https://github.com/IdanKfir/dice-game'
+                type='Project'
               />
             </div>
           </div>
@@ -274,16 +286,3 @@ local currency.'
 };
 
 export default projects;
-
-//             <div className='col-span-6 sm:col-span-12'>
-// <Project
-// title='IkNews'
-// img={iknews}
-// summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-// It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-// local currency.'
-// link='https://idanknews.netlify.app/'
-// github='https://github.com/IdanKfir/NewsGrid'
-// type='Project'
-// />
-// </div>
