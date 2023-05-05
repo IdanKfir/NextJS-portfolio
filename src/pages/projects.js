@@ -5,7 +5,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
 import proshop from '../../public/images/projects/proshop.png';
 import iknews from '../../public/images/projects/iknews.png';
 import minecraft from '../../public/images/projects/minecraft.png';
@@ -17,6 +16,7 @@ import devc from '../../public/images/projects/devc.png';
 import cocktails from '../../public/images/projects/cocktails.png';
 import dfolio from '../../public/images/projects/3dfolio.png';
 import fightingGame from '../../public/images/projects/fightingGame.png';
+import dice from '../../public/images/projects/dice.png';
 
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
