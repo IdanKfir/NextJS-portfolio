@@ -291,6 +291,16 @@ const projects = () => {
                 type='Featured Project'
               />
             </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+                title='Comfy Store'
+                img={Comfy}
+                summary='A Store made with React.js.'
+                link='https://ikstore.netlify.app/'
+                github='https://github.com/IdanKfir/eCommerce-Comfy-Sloth'
+                type='Project'
+              />
+            </div>
           </div>
         </Layout>
       </main>
