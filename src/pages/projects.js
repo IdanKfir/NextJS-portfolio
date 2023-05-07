@@ -165,20 +165,23 @@ const projects = () => {
                 type='Featured Project'
               />
             </div>
+
+            {/* ExercisesD */}
+
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Brutal-Fighters'
-                img={fightingGame}
-                summary='A 2D Fighting game, built with Javascript, Html Canvas & CSS. lot of gaming logic, animations, models, sprites.
-                used with free assets [Oak Woods Environmnent asset - h.io]'
-                link='https://ikbrutal.vercel.app/'
-                github='https://github.com/IdanKfir/2d-fighting-game'
+                title='Fitness App'
+                img={fitness}
+                summary='Fitness App using RapidAPI,React.JS etc.'
+                link='https://ik-fitness.netlify.app/'
+                github='https://github.com/IdanKfir/fitness-app'
                 type='Project'
               />
             </div>
+
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='HouseRetail'
+                title='House Retail'
                 img={houseretail}
                 summary='House Selling / Renting with autenthication and responsive to mobile, made with React.js.'
                 link='https://ik-houseretail.netlify.app/'
@@ -259,7 +262,7 @@ const projects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Dice-Game'
+                title='Dice Game'
                 img={dice}
                 summary='2 Players Dice game, made With Javascript, Html & CSS only'
                 link='https://ikdice-game.vercel.app/'
@@ -269,12 +272,23 @@ const projects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Github-Finder'
+                title='Github Finder'
                 img={githubfinder}
                 summary='An app to search for github users + repos etc. wrote with React.js, based on github API.'
                 link='https://ikgithub-finder.vercel.app/'
                 github='https://github.com/IdanKfir/github-finder'
                 type='Project'
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedProject
+                title='Brutal Fighters'
+                img={fightingGame}
+                summary='A 2D Fighting game, built with Javascript, Html Canvas & CSS. lot of gaming logic, animations, models, sprites.
+                used with free assets [Oak Woods Environmnent asset - h.io]'
+                link='https://ikbrutal.vercel.app/'
+                github='https://github.com/IdanKfir/2d-fighting-game'
+                type='Featured Project'
               />
             </div>
           </div>
