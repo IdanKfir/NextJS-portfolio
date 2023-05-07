@@ -17,6 +17,8 @@ import cocktails from '../../public/images/projects/cocktails.png';
 import dfolio from '../../public/images/projects/3dfolio.png';
 import fightingGame from '../../public/images/projects/fightingGame.png';
 import dice from '../../public/images/projects/dice.png';
+import fitness from '../../public/images/projects/fitness.png';
+import Comfy from '../../public/images/projects/comfy.png';
 
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
