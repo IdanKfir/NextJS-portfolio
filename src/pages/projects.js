@@ -241,22 +241,22 @@ const projects = () => {
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
-              <Project
-                title='3D Portfolio'
-                img={dfolio}
-                summary='3D Portfolio website using models from the web, made while learning. Stack: this website made with React.js, Three.js related tech, TailwindCss.'
-                link='/ik3d.vercel.app'
-                github='https://github.com/IdanKfir/3D-Portfolio'
+              <FeaturedProject
+                title='News Grid'
+                img={iknews}
+                summary='News-Grid website Made with HTML & CSS only'
+                link='https://idanknews.netlify.app/'
+                github='https://github.com/IdanKfir/NewsGrid'
                 type='Project'
               />
             </div>
             <div className='col-span-12'>
               <FeaturedProject
-                title='IkNews'
-                img={iknews}
-                summary='News-Grid website Made with HTML & CSS only'
-                link='https://idanknews.netlify.app/'
-                github='https://github.com/IdanKfir/NewsGrid'
+                title='3D Portfolio'
+                img={dfolio}
+                summary='3D Portfolio website using models. Stack: this website made with React.js, Three.js,React Three Fiber,Framer Motion, TailwindCss.'
+                link='/ik3d.vercel.app'
+                github='https://github.com/IdanKfir/3D-Portfolio'
                 type='Featured Project'
               />
             </div>
