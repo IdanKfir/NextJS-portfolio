@@ -21,7 +21,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href='https://ik3d.vercel.app'
+          href='https://ikdev.up.railway.app/'
           target={'_blank'}
           className='underline underline-offset-2'
         >
