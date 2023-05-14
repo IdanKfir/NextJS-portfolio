@@ -2,6 +2,12 @@
 
 ## Demo - https://ikfolio.vercel.app/
 
+
+### Finished App
+![Finished App](https://github.com/IdanKfir/NextJS-portfolio/blob/main/next.gif)
+
+
+
 ### Resources Used in This Project
 
 - Profile image in the home page created by using https://www.midjourney.com/ tool.
