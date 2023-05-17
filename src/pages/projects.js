@@ -184,7 +184,7 @@ const projects = () => {
             {/* ExercisesD */}
 
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='Fitness App'
                 img={fitness}
                 summary='Fitness App using RapidAPI,React.JS etc.'
@@ -195,7 +195,7 @@ const projects = () => {
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='House Retail'
                 img={houseretail}
                 summary='House Selling / Renting with autenthication and responsive to mobile, made with React.js.'
@@ -208,14 +208,14 @@ const projects = () => {
               <FeaturedProject
                 title='Minecraft Clone'
                 img={minecraft}
-                summary='This project is just me trying to mimic Minecraft in React. Using Javascript, React, Three.js'
+                summary='This project is just me trying to mimic Minecraft in React. Using Javascript, React, Three.js. Not Compatible for pc unfortunately.'
                 link='https://ik-minecraft.vercel.app/'
                 github='https://github.com/IdanKfir/Minecraft-Clone'
                 type='Featured Project'
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='Hangman Game'
                 img={hangman}
                 summary='Do you know Hangman game? so this is it, made with VanillaJs.'
@@ -225,7 +225,7 @@ const projects = () => {
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='Cocktail Finder'
                 img={cocktails}
                 summary='A Cocktail finder app using CocktailDb API, build with React.js.'
@@ -245,7 +245,7 @@ const projects = () => {
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='3D Shirt Model'
                 img={dshirt}
                 summary='About
@@ -276,7 +276,7 @@ const projects = () => {
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='Dice Game'
                 img={dice}
                 summary='2 Players Dice game, made With Javascript, Html & CSS only'
@@ -286,7 +286,7 @@ const projects = () => {
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='Github Finder'
                 img={githubfinder}
                 summary='An app to search for github users + repos etc. wrote with React.js, based on github API.'
