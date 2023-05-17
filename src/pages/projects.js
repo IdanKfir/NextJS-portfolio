@@ -158,7 +158,6 @@ const projects = () => {
           />
 
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
-
             <div className='col-span-12'>
               <FeaturedProject
                 title='Netflix Clone'
@@ -184,7 +183,7 @@ const projects = () => {
             {/* ExercisesD */}
 
             <div className='col-span-6 sm:col-span-12'>
-              <FeaturedProject
+              <Project
                 title='Fitness App'
                 img={fitness}
                 summary='Fitness App using RapidAPI,React.JS etc.'
@@ -195,7 +194,7 @@ const projects = () => {
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
-              <FeaturedProject
+              <Project
                 title='House Retail'
                 img={houseretail}
                 summary='House Selling / Renting with autenthication and responsive to mobile, made with React.js.'
@@ -208,7 +207,7 @@ const projects = () => {
               <FeaturedProject
                 title='Minecraft Clone'
                 img={minecraft}
-                summary='This project is just me trying to mimic Minecraft in React. Using Javascript, React, Three.js. Not Compatible for pc unfortunately.'
+                summary='This project is just me trying to mimic Minecraft in React. Using Javascript, React, Three.js.'
                 link='https://ik-minecraft.vercel.app/'
                 github='https://github.com/IdanKfir/Minecraft-Clone'
                 type='Featured Project'
@@ -228,7 +227,7 @@ const projects = () => {
               <FeaturedProject
                 title='Cocktail Finder'
                 img={cocktails}
-                summary='A Cocktail finder app using CocktailDb API, build with React.js.'
+                summary='A Cocktail finder app using CocktailDb API, built with React.js.'
                 link='https://thecocktailsik.netlify.app/'
                 github='https://github.com/IdanKfir/Cocktails'
                 type='Project'
@@ -248,8 +247,8 @@ const projects = () => {
               <FeaturedProject
                 title='3D Shirt Model'
                 img={dshirt}
-                summary='About
-                A project that has a 3D-Shirt-Model which is responsive, has Color changes, texture and you can upload logo to the model. Stack: React.js, Three.js.'
+                summary='
+                A project that has a 3D-Shirt-Model which is responsive, has Color changes, texture and you can upload logo to the model; openAi prompter for those also. Stack: React.js, Three.js, openAi API.'
                 link='https://ik-shirt.vercel.app/'
                 github='https://github.com/IdanKfir/3D-Shirt'
                 type='Project'
