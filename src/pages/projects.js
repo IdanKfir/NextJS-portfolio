@@ -19,6 +19,7 @@ import fightingGame from '../../public/images/projects/fightingGame.png';
 import dice from '../../public/images/projects/dice.png';
 import fitness from '../../public/images/projects/fitness.png';
 import Comfy from '../../public/images/projects/comfy.png';
+import netflix from '../../public/images/projects/netflix.png';
 
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -157,6 +158,18 @@ const projects = () => {
           />
 
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+
+            <div className='col-span-12'>
+              <FeaturedProject
+                title='Netflix Clone'
+                img={netflix}
+                summary='Fullstack Netflix Clone with React, NextJS, TailwindCSS & Prisma.'
+                link='https://iknetflix.vercel.app/'
+                github='https://github.com/IdanKfir/Netflix-Clone'
+                type='Featured Project'
+              />
+            </div>
+
             <div className='col-span-12'>
               <FeaturedProject
                 title='Dev Connector'
