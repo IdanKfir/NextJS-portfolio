@@ -180,10 +180,8 @@ const projects = () => {
               />
             </div>
 
-            {/* ExercisesD */}
-
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='Fitness App'
                 img={fitness}
                 summary='Fitness App using RapidAPI,React.JS etc.'
@@ -194,7 +192,7 @@ const projects = () => {
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
-              <Project
+              <FeaturedProject
                 title='House Retail'
                 img={houseretail}
                 summary='House Selling / Renting with autenthication and responsive to mobile, made with React.js.'
