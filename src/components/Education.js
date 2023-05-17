@@ -69,7 +69,7 @@ and One was 50 Projects - One a day which made my github explode with new real-l
 '
           />
           <Details
-            type='Online Courses'
+            type='The Odin Project'
             time='March 2023-June 2023 '
             place='The Odin Project'
             info='Meanwhile Looking for projects to fill my portfolio and adding more knowledge; I began 
@@ -79,7 +79,7 @@ and One was 50 Projects - One a day which made my github explode with new real-l
 '
           />
           <Details
-            type='Online Courses'
+            type='CS50 - Introduction to Computer Science'
             time='March 2023-June 2023 '
             place='CS50 - Introduction to Computer Science (Harvard University Online Course)'
             info='While Doing The Odin Project I took this course which compliment each other.
