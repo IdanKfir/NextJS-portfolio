@@ -267,7 +267,7 @@ const projects = () => {
                 title='3D Portfolio'
                 img={dfolio}
                 summary='3D Portfolio website using models. Stack: this website made with React.js, Three.js,React Three Fiber,Framer Motion, TailwindCss.'
-                link='/ik3d.vercel.app'
+                link='https://ik3d.vercel.app/'
                 github='https://github.com/IdanKfir/3D-Portfolio'
                 type='Featured Project'
               />
